@@ -1,23 +1,47 @@
-melon_names = {
-    1: 'Honeydew',
-    2: 'Crenshaw',
-    3: 'Crane',
-    4: 'Casaba',
-    5: 'Cantaloupe',
-}
-
-melon_prices = {
-    1: 0.99,
-    2: 2.00,
-    3: 2.50,
-    4: 2.50,
-    5: 0.99,
-}
-
-melon_seedlessness = {
-    1: True,
-    2: False,
-    3: False,
-    4: False,
-    5: False,
+melon_data = {
+    'Honeydew': {
+        'Name': 'HONEYDEW',
+        'Price': 0.99,
+        'Seedless': True,
+        'Flesh color': None,
+        'Rind color': None,
+        'Weight': None,
+        'Origin': None,
+    },
+    'Crenshaw': {
+        'Name': 'CRENSHAW',
+        'Price': 2.00,
+        'Seedless': False,
+        'Flesh color': None,
+        'Rind color': None, 
+        'Weight': None,
+        'Origin': None,
+    },
+    'Crane': {
+        'Name': 'CRANE',
+        'Price': 2.50,
+        'Seedless': False,
+        'Flesh color': None,
+        'Rind color': None,
+        'Weight': None,
+        'Origin': None,
+    },
+    'Casaba': {
+        'Name': 'CASABA',
+        'Price': 2.50,
+        'Seedless': False,
+        'Flesh color': None,
+        'Rind color': None,
+        'Weight': None,
+        'Origin': None,
+    },
+    'Cantaloupe': {
+        'Name': 'CANTALOUPE',
+        'Price': 0.99,
+        'Seedless': False,
+        'Flesh color': None,
+        'Rind color': None,
+        'Weight': None,
+        'Origin': None,
+    }
 }
